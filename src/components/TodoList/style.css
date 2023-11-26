@@ -1,0 +1,18 @@
+
+ul.todo-list li {
+    display: flex;
+    border-top: 1px solid rgb(80, 80, 80);
+    width: 100%;
+  
+  }
+  
+  ul.todo-list {
+    background-color: rgb(49, 49, 49);
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 0;
+    width:106.7%;
+    padding-left: 0;
+  
+  }
+  

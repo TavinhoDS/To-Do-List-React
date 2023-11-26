@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 ;
+  padding: 0;
+  text-align: center;
+}
+
+.todo {
+  flex: 1;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  word-break: break-all;
+  text-transform: uppercase;
+  line-height: 0.5;
+  transition: color 0.3s;
+  padding: 15px 15px 17px 15px;
+}
+
+
+.remove{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 50px;
+  color: #ff7675;
+  
+}
+
+.todo.checked {
+  color: #23f33b;
+  text-decoration: line-through;
+  transition: 1s all;
+}
